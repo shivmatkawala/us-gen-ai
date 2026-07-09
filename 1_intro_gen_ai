@@ -1,0 +1,75 @@
+# Introduction of Generative Artificial Intelligence:
+
+        # GenAI
+        # Transformer Intuition
+        # Tokens
+        # Context Window
+        # Call an LLM API
+        # Build First Cahtbot.
+
+
+# Chatgpt ==> Intelligent
+
+
+# AI:-
+    # ML
+        # DL
+            # Generative AI
+
+
+# Traditional AI:
+    # INPUT ==> PREDICTION
+    # Email ==> Spam / Not Spam
+
+# Generative AI:
+    # Write Email
+    # Generate Code
+    # Generate Image
+    # Generate SQL
+    # Generating Story
+    # Generating Timetable
+
+------------------------------------------------
+
+LLM :  Large Language Model
+
+    # Large ==> Billoions of Parameters Language ==> Learns Human Language Model ==> Neural Network
+
+# prompt : i lOVE eATING
+        # tOKENS : pIZZA, rICE, mANGOES, bIRYANI
+
+# Tokens :
+    # 100 words is not equal to 100 tokens.
+    # It can be 120, 130, 125.
+    # It completely depends upon tokenizer.
+
+    # Hey this is charismatic.
+    # Hey, this, is, charismatic .  ==> 4
+    # Hey, this , is, charism, atic, . ==> 5
+
+# Context Window: 
+    # Past conversation ==> Current Prompt ==> LLM ==> Output
+
+
+# Temperature:
+    # Tell me a fruit   [Temperature = 0]
+    # Apple
+    # Apple
+    # Apple
+
+    [Temperature = 2]
+    # Dragon Fruit
+    # Durian
+    # Jackfruit
+
+    # Higher Temperature ==> More Creativity
+    # Lower Temperature ==> More Deterministic
+
+# Top P
+
+    Temperature = Creativity
+    Top P = How many Chocice model considers
+
+
+# First LLM API:
+
