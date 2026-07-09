@@ -1,6 +1,13 @@
 import requests
+from dotenv import load_dotenv
+import os
 
-API_KEY = ""
+# Load environment variables from .env file
+load_dotenv()
+
+# Access the variables
+API_KEY = os.getenv("GROQ_API_KEY")
+
 url = "https://api.groq.com/openai/v1/chat/completions"
 
 system_prompt= "you are a helpful bot, which gives concise answers"
